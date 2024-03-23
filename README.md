@@ -1,51 +1,56 @@
-# libgen-gui-using-tkinter
+# Library Genesis Book URL Fetcher
 
 This is a simple Python GUI application built using Tkinter for fetching book URLs from Library Genesis using the libgen-api.
 
-Introduction
+## Introduction
+
 Library Genesis is a website that provides free access to millions of research articles and books. This application allows users to search for books and retrieve their direct download URLs from Library Genesis using the libgen-api.
 
-Features
-Simple GUI interface for easy interaction.
-Search for books by title, author, or ISBN.
-Fetch direct download URLs for books from Library Genesis.
-Requirements
-Python 3.x
-Tkinter (usually comes pre-installed with Python)
-libgen-api (pip install libgen-api)
-Installation
-Clone this repository to your local machine:
+## Features
 
-bash
-Copy code
-git clone https://github.com/your-username/library-genesis-book-url-fetcher.git
-Install the required dependencies:
+- Simple GUI interface for easy interaction.
+- Search for books by author.
+- Fetch direct download URLs for books from Library Genesis.
 
-Copy code
-pip install -r requirements.txt
-Usage
-Navigate to the directory where you cloned the repository:
+## Requirements
 
-bash
-Copy code
-cd library-genesis-book-url-fetcher
-Run the application:
+- Python 3.x
+- Tkinter (usually comes pre-installed with Python)
+- libgen-api (`pip install libgen-api`)
 
-css
-Copy code
-python main.py
-Enter the book title, author, or ISBN in the respective fields.
+## Installation
 
-Click on the "Search" button.
+1. Clone this repository to your local machine:
 
-The direct download URL(s) for the book(s) will be displayed in the output area.
+    ```
+    git clone https://github.com/Samreen-Kazi/libgen-gui.git
+    ```
 
-Contributing
-Contributions are welcome! If you'd like to contribute to this project, feel free to fork this repository and submit a pull request.
+2. Install the required dependencies:
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+    ```
+    pip install -r requirements.txt
+    ```
 
-Acknowledgments
-Library Genesis
-libgen-api
+## Usage
+
+1. Navigate to the directory where you cloned the repository:
+
+    ```
+    cd library-genesis-book-url-fetcher
+    ```
+
+2. Run the application:
+
+    ```
+    python main.py
+    ```
+
+3. Enter the book title.
+4. Click on the "Search" button.
+5. The direct download URL(s) for the book(s) will be displayed in the output area.
+
+## Acknowledgments
+
+- [Library Genesis](http://libgen.rs/)
+- [libgen-api](https://pypi.org/project/libgen-api/)
