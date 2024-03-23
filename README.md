@@ -37,13 +37,13 @@ Library Genesis is a website that provides free access to millions of research a
 1. Navigate to the directory where you cloned the repository:
 
     ```
-    cd library-genesis-book-url-fetcher
+    cd libgen-gui
     ```
 
 2. Run the application:
 
     ```
-    python main.py
+    python app.py
     ```
 
 3. Enter the book title.
